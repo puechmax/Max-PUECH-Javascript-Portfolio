@@ -1,0 +1,16 @@
+.presentation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.components {
+   width: 32%;
+   margin-bottom: 20px;
+   height: 300px;
+   overflow: hidden;
+   box-shadow: 0px 4px 20px rgb(0 0 0 / 15%);
+}
+.components img{
+   width: 100%;
+}

@@ -1,0 +1,14 @@
+.btn-demo {
+    background-color: rgb(70, 80, 88);
+    border-radius: 999999px;
+    border: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-demo:hover {
+    background-color: rgb(109, 128, 144);
+}   

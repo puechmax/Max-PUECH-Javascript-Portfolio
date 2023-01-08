@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('components/buttons.css');
+@import url('components/container.css');
+@import url('components/presentation.css');
+@import url('components/sections.css');
+@import url('components/navbar.css');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.hero{
+    height: 80vh;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),url(../images/about-us-slider.jpg)no-repeat;
+    background-size: cover;
+}
+.hero-content{
+    width: 50%;
+}
+.hero-content h2{
+    margin: 5px 0;
+    font-size: 40px;
+}
+.about-me{
+    width: 100%;
+    padding-right: 50px;
+}
+.about-me p{
+    margin-top: 10px;
+}
+.about-img{
+    width: 100%;
+}
+.about-img img{
+    width: 100%;
+}
+.projet{
+    background-color: rgb(255, 255, 255);
+}
+.projet h1{ 
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.my-skills {
+    padding: 20px;
+    font-family: arial;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    max-width: 100%;
+  }
+  .my-skills, .my-skills * {
+    box-sizing: border-box;
+  }
+  .my-skills > div {
+    width: 100%;
+  }
+  .my-skills .ms-title {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .my-skills .ms-list .ms-loader {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  .my-skills .ms-list .ms-loader .ms-line {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: #333333;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 2px;
+  }
+  .my-skills .ms-list .ms-loader .ms-line > div {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 0%;
+    background-color: red;
+    transition: width 1s;
+  }
+  .my-skills .ms-list .ms-loader .ms-percent {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    font-size: 0.9em;
+  }
+  
+  body {
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+  }
+  .my-skills {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+
+
+@media screen and (max-width: 720px){
+
+
+    .hero{
+        height: auto;
+        padding-top: 150px!important;
+    }
+    .hero-content{
+        width: 100%;
+    }
+    .dis-flx{
+        flex-direction: column;
+    }
+    .about-me{
+        width: 100%;
+        padding-right: 0;
+    }
+    .about-img{
+        width: 100%;
+        margin-top: 30px;
+
+    }
+    .section {
+        width: 100%;
+        padding: 60px 0;
+         display: flex;
+     }
+     
+     .components{
+        height: 150px;
+        width: 48%;
+     }
+     .components img{
+        height: 100%;
+     }
+
+}

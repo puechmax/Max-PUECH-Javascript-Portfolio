@@ -1,0 +1,10 @@
+.section {
+   width: 100%;
+   padding: 100px 0;
+    display: flex;
+}
+
+.dis-flx {
+    display: flex;
+    align-items: center;
+}
